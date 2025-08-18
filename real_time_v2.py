@@ -33,7 +33,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 FONT_PATH = "NanumGothic.ttf"
 FONT = ImageFont.truetype(FONT_PATH, 24)
 FRAME_TARGET = 90
-MODEL_DIR = "models_by_category_mixed_v2"  # v2 학습 모델 폴더
+MODEL_DIR = "model"  # v2 학습 모델 폴더
 SAVE_DIR = "collected_data"  # 저장할 루트 폴더
 CONF_THRESHOLD = 90.0        # 90% 이상만 저장
 
